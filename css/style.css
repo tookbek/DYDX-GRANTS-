@@ -2,7 +2,7 @@ body{
     font-family: 'Space Mono' sans-serif;
     font-family: 'Monserrat ' sans-serif;
     margin: 0;
-    background: #393953 -30%;
+    background: #1C1C28;
     border-radius: 10px;
     padding: 10px;
 }
@@ -36,7 +36,7 @@ body{
     border-color: #6966FF;
     padding: 12px 16px;
 }
-@media screen and (max-width:690px) {
+@media screen and (max-width:807px) {
     .header__content_nav-link{
         display: none;
     }
@@ -52,5 +52,100 @@ body{
     }
     .button span{
         display: none;
+    }
+}   
+.hero_content{
+    padding: 86px 0;
+}
+.hero_content_title{
+    color: var(--text-icon-primary, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Circular Std;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; 
+    letter-spacing: -1.76px;
+}
+.hero_svg{
+     display: flex;
+     align-items: center;
+     justify-content: end;
+     padding: 0 60px;
+     max-width: 550px;
+
+}
+.hero_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 16px 0;
+}
+.hero-button1{
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    border-radius: 7.29px;
+    background: #393939;
+    border-color: #393939;
+}
+.hero-button2{
+    width: 200px;
+    height: 50px;
+    color:  #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    border-radius: 7.29px;
+    background:  #6966FF;
+    border-color: #6966FF;
+}
+.hero_icon{
+    width: 12px;
+}
+@media screen and (max-width:656px) {
+    .hero_content_title{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:512px) {
+    .hero_content_title{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:320px) {
+    .hero_content_title{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:320px) {
+    .hero_svg2{
+        width: 200px;
+        
+    }
+}
+@media screen and (max-width:320px) {
+    .hero_button{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+
+    }
+}
+@media screen and (max-width:320px) {
+    .hero-button1{
+        width: 300px;
+    }
+}
+@media screen and (max-width:320px) {
+    .hero-button2{
+        width: 300px;
     }
 }
